@@ -19,5 +19,10 @@ element.onmousemove = function (event) {
     if(holded) {
         imgBox.style.width = event.offsetX + 5 + "px";
         imgBox.style.height = event.offsetY + 5 + "px";
+
+        element.style.left = (event.offsetX + 5) - 20 + "px";
+        element.style.top = (event.offsetY + 5) - 16 + "px";
+
+        event.x = "120px";
     }
 }

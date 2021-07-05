@@ -5,11 +5,11 @@
 .handle {
     position: relative;
     left: 92%;
-    top: 93%;
+    top: 95%;
     background: red;
     z-index: 10;
     cursor:nwse-resize;
-    padding: 0% 5% 5% 4%;
+    padding: 18px 25px;
 }
 .imgBox {
     width: 512px;
